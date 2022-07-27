@@ -1,0 +1,43 @@
+print('Wedcome to my quiz')
+playing =input('Do you want to play? ')
+
+score = 0
+if playing == "yes":
+    print('lets begin')
+else:
+    print("you are a loser :)")
+    quit()
+
+answer = input(" what is the capital of India? ")
+if answer == "New Delhi":
+    print('correct')
+    score +=1
+else:
+    print('incorrect')
+
+answer = input(" how many meters is equal to a kilometer? ")
+if answer == "1000" :
+    print('correct')
+    score +=1
+else:
+    print('incorrect')
+
+answer = input(" what is the color of apple? ")
+if answer == "red" :
+    print('correct')
+    score +=1
+else:
+    print('incorrect')
+
+answer = input(" is America bigger than India? ")
+if answer == "yes" :
+    print('correct')
+    score +=1
+else:
+    print('incorrect')
+
+
+print("your score is "+ str(score))
+print("your score is "+ str(score/4 *100)+ "%")
+
+
